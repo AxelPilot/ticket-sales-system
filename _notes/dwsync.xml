@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="activate.php" server="studssh.cs.hioa.no" local="130409344245281235" remote="130409344260000000" />
+<file name="change_password.php" server="studssh.cs.hioa.no" local="130417831651837128" remote="130417831680000000" />
+<file name="delete_event.php" server="studssh.cs.hioa.no" local="130417131671185885" remote="130417131690000000" />
+<file name="forgot_password.php" server="studssh.cs.hioa.no" local="130418979461424507" remote="130418979460000000" />
+<file name="get_event_data.ajax.php" server="studssh.cs.hioa.no" local="130407774334526872" remote="130407799240000000" />
+<file name="index.php" server="studssh.cs.hioa.no" local="130418995761456815" remote="130418995760000000" />
+<file name="login.php" server="studssh.cs.hioa.no" local="130417097877142976" remote="130417097890000000" />
+<file name="logout.php" server="studssh.cs.hioa.no" local="130409344051160132" remote="130409344070000000" />
+<file name="purchase_ticket.php" server="studssh.cs.hioa.no" local="130417825097812259" remote="130417825130000000" />
+<file name="register_competitor.php" server="studssh.cs.hioa.no" local="130409330818573272" remote="130409330830000000" />
+<file name="register_event.php" server="studssh.cs.hioa.no" local="130417114911127264" remote="130417114930000000" />
+<file name="register_user.php" server="studssh.cs.hioa.no" local="130417043313122093" remote="130417043330000000" />
+<file name="update_event.php" server="studssh.cs.hioa.no" local="130409381652330796" remote="130409381670000000" />
+<file name="open_notification.php" server="studssh.cs.hioa.no" local="130409344015478091" remote="130409344030000000" />
+<file name="process_admin_request.php" server="studssh.cs.hioa.no" local="130409343981766163" remote="130409344000000000" />
+<file name="apply_for_admin.php" server="studssh.cs.hioa.no" local="130409344315515253" remote="130409344330000000" />
+<file name="get_notification.ajax.php" server="studssh.cs.hioa.no" local="130408324122452034" remote="130408324130000000" />
+<file name="get_competitor_data.ajax.php" server="studssh.cs.hioa.no" local="130409372860627940" remote="130409372880000000" />
+</dwsync>
