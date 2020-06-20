@@ -37,7 +37,7 @@ $( function()
  */	
 	$( '#email' ).on( 'change', function()
 	{
-		validation( this, /^[a-zA-Z0-9_\.\-]*@[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,4}$/, 'Ugyldig e-postadresse!' );
+		validation( this, /^[a-zA-Z0-9_\.\-]*@[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,4}$/, 'Invalid email address!' );
 	});
 
 // *****************************************************
@@ -46,7 +46,7 @@ $( function()
  */	
 	$( '#password' ).on( 'change', function()
 	{
-		validation( this, /^[a-zA-Z0-9]{4,20}$/, 'Ugyldig passord!' );
+		validation( this, /^[a-zA-Z0-9]{4,20}$/, 'Invalid password!' );
 	});
 
 // *****************************************************

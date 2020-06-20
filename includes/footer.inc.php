@@ -57,7 +57,7 @@ if ( $loggedIn )
 else
 {
 	?>
-	<li><a href="login.php">LOG IN</a></li>
+	<li><a href="login.php">SIGN IN</a></li>
 	<li><a href="register_user.php">CREATE ACCOUNT</a></li>
 	<?php
 }

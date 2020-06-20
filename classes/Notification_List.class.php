@@ -65,7 +65,7 @@ class Notification_List extends GUI
 		else
 		{
 			echo '<div id="notifications">' . "\r\n";
-			echo '<div id="notification_title"><h3>Ingen uleste beskjeder.</h3></div>' . "\r\n";
+			echo '<div id="notification_title"><h3>No unread messages.</h3></div>' . "\r\n";
 			echo '</div>' . "\r\n";
 			
 			echo '<div id="notification_count" style="display: none;">';

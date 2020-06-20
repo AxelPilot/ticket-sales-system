@@ -7,7 +7,7 @@ include( './includes/header.inc.php' );
 <h2>Select an Exercise to View Info about Contestants and Ticket Sales:</h2>
 
 <?php
-include( './includes/index_form.inc.php' );
+new Index_Form();
 
 if( $msg = filter_input( INPUT_GET, 'msg', FILTER_SANITIZE_SPECIAL_CHARS ) )
 {

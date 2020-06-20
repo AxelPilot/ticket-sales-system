@@ -34,7 +34,7 @@ function notification_open_and_mark_as_read( notification_id )
 					
 					if( notification_count == 0 )
 					{
-						$( "#notification_title" ).html( '<h3>Ingen uleste beskjeder.</h3>' );
+						$( "#notification_title" ).html( '<h3>No unread messages.</h3>' );
 					}
 					
 					display_notification_in_lightbox( notification.title, notification.message );

@@ -31,7 +31,7 @@ class Login extends Handler
  */
 	protected function initial_action()
 	{
-		$this->set_page_subtitle( 'Logg inn' );
+		$this->set_page_subtitle( 'Sign In' );
 		$this->print_page_subtitle();
 		include( './includes/login_form.inc.php' );
 	}
