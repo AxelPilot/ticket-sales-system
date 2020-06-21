@@ -22,7 +22,7 @@ register_shutdown_function( 'shutdown' );
 
 // ************************************************************************
 /**
- * Custom error handler.
+ * Custom error Handler.
  */
 function myErrorHandler( $errno, $errstr, $errfile, $errline )
 {
@@ -38,7 +38,7 @@ function myErrorHandler( $errno, $errstr, $errfile, $errline )
 
 // ************************************************************************
 
-set_error_handler( 'myErrorHandler', E_ALL );
+set_error_Handler( 'myErrorHandler', E_ALL );
 
 // ************************************************************************
 /**

@@ -1,16 +1,10 @@
 <?php
 
-// ************************************************************************
 /**
  *
  */
-class AsFormValidationException extends AsException
-{
-
-// ************************************************************************
-
-} // End of class AsFormValidationException.
-
-// ************************************************************************
+class AsFormValidationException extends AsException {
+    
+}
 
 ?>

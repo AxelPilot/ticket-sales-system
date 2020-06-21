@@ -3,7 +3,8 @@
 /**
  *
  */
-class Login extends Handler {
+
+class Login extends Controller {
 
     protected $url;
     protected $page_subtitle;

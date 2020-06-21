@@ -1,10 +1,9 @@
 <?php
-include( './includes/strings.en.inc.php' );
 include( './includes/head.inc.php' );
 include( './includes/header.inc.php' );
 ?>
 
-<h2>Select an Exercise to View Info about Contestants and Ticket Sales:</h2>
+<h2>Select an Exercise To View Info About Contestants and Ticket Sales:</h2>
 
 <?php
 new Index_Form();

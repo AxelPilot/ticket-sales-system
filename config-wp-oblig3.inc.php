@@ -20,7 +20,7 @@ define( 'DB_COLLATE', '' );
 // ************************************************************************
 // ************************************************************************
 // You can have multiple installations in one database if you give each 
-// a unique prefix.
+// installation a unique prefix.
 
 // Only numbers, letters, and underscores please!
 define( 'TABLE_PREFIX', 'wp2_' );
@@ -46,7 +46,7 @@ if ( !isset( $page_title ) )
 
 if ( !isset( $errorlogpath ) )
 {
-	$errorlogpath = "./error/errorlog.txt";
+	$errorlogpath = "error/errorlog.txt";
 }
 
 ?>

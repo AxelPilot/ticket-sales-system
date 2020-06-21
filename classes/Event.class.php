@@ -13,8 +13,8 @@ class Event extends Entity
 	const NO_DUPLICATES = false; // Allow no duplicates to be stored in the database.
 	
 	protected $event_ID; // The event ID.
-	protected $time; 	 // Time of the event.
-	protected $name; 	 // Name of the event.
+	protected $time;     // Time of the event.
+	protected $name;     // Name of the event.
 	
 	protected $validation_messages = array();
 
