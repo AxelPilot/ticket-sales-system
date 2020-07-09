@@ -35,7 +35,7 @@ $( function()
  */	
 	$( '#email' ).on( 'change', function()
 	{
-		validation( this, /^[a-zA-Z0-9_\.\-]*@[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,4}$/, 'Ugyldig e-postadresse!' );
+		validation( this, /^[a-zA-Z0-9_\.\-]*@[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,4}$/, 'You entered an invalid email address.' );
 	});
 
 // *****************************************************

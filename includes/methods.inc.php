@@ -130,7 +130,7 @@ function getBaseUrl()
  */
 function redirect( $filename, $full_url = false, $onload_func = NULL, $add_params = NULL )
 {
-	$url = ( !$full_url || !isset( $full_url ) ? getBaseUrl() . "/" : "" ) . $filename;
+	$url = ( !$full_url || !isset( $full_url ) ? getBaseUrl() . DIRECTORY_SEPARATOR : "" ) . $filename;
 	$url .= ( isset( $onload_func ) ? ( strpos( $url, '?' ) === false ? "?" : "&" ) . "onload=" . $onload_func : "" );
 	$url .= ( isset( $add_params ) ? ( strpos( $url, '?' ) === false ? "?" : "&" ) . $add_params : "" );
 	ob_end_clean(); // Delete the buffer.

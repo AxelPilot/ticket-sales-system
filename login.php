@@ -6,4 +6,3 @@ include( './includes/head.inc.php' );
 include( './includes/header.inc.php' );
 new Login();
 include( './includes/footer.inc.php' );
-?>

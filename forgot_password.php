@@ -19,7 +19,7 @@ if ( isset( $_POST[ 'submitted' ] ) ) // Check if the form has been submitted.
 		if ( empty( $_POST[ 'email' ] ) )
 		{
 			$uid = false;
-			$validation_exceptions[ 'email' ] = 'Ugyldig e-postadresse!';
+			$validation_exceptions[ 'email' ] = 'You entered an invalid email address.';
 		}
 		else
 		{
